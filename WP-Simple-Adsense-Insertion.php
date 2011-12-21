@@ -2,8 +2,8 @@
 
 /*
 Plugin Name: WP Simple Adsense Insertion
-Version: v1.0
-Plugin URI: http://www.tipsandtricks-hq.com/?page_id=170
+Version: v1.1
+Plugin URI: http://www.tipsandtricks-hq.com/
 Author: Ruhul Amin
 Author URI: http://www.antique-hq.com/
 Plugin Description: A simple Wordpress plugin to insert Google Adsense into posts, pages, sidebars.
@@ -20,7 +20,7 @@ Plugin Description: A simple Wordpress plugin to insert Google Adsense into post
     GNU General Public License for more details.
 */
 
-$wp_simple_ad_insert_version = 1.0;
+$wp_simple_ad_insert_version = 1.1;
 
 
 function show_ad_camp_1()
@@ -140,7 +140,7 @@ function ad_insertion_options_page() {
     <br /><i>Copy and Paste the Google adsene code here. To show this add in your posts or pages use the token <br />&lt;!-- wp_ad_camp_1 --&gt;
     <br />or call the function from a template file <br />&lt;?php echo show_ad_camp_1(); ?&gt;</i>
     </td><td align="left">
-    <textarea name="wp_ad_camp_1_code" rows="6" cols="35"><?php echo $tmpCode1; ?></textarea>
+    <textarea name="wp_ad_camp_1_code" rows="6" cols="35"><?php echo get_option('wp_ad_camp_1_code'); ?></textarea>
     </td></tr>
 
     <tr valign="top"><td width="35%" align="left">
@@ -148,7 +148,7 @@ function ad_insertion_options_page() {
     <br /><i>Copy and Paste the Google adsene code here. To show this add in your posts or pages use the token <br />&lt;!-- wp_ad_camp_2 --&gt;
     <br />or call the function from a template file <br />&lt;?php echo show_ad_camp_2(); ?&gt;</i>
     </td><td align="left">
-    <textarea name="wp_ad_camp_2_code" rows="6" cols="35"><?php echo $tmpCode2; ?></textarea>
+    <textarea name="wp_ad_camp_2_code" rows="6" cols="35"><?php echo get_option('wp_ad_camp_2_code'); ?></textarea>
     </td>
     </tr>
 
@@ -157,7 +157,7 @@ function ad_insertion_options_page() {
     <br /><i>Copy and Paste the Google adsene code here. To show this add in your posts or pages use the token <br />&lt;!-- wp_ad_camp_3 --&gt;
     <br />or call the function from a template file <br />&lt;?php echo show_ad_camp_3(); ?&gt;</i>
     </td><td align="left">
-    <textarea name="wp_ad_camp_3_code" rows="6" cols="35"><?php echo $tmpCode3; ?></textarea>
+    <textarea name="wp_ad_camp_3_code" rows="6" cols="35"><?php echo get_option('wp_ad_camp_3_code'); ?></textarea>
     </td></tr>
 
     </table>
