@@ -1,24 +1,28 @@
 === WP Simple Adsense Insertion ===
 
-Contributors: Ruhul Amin
+Contributors: Tips and Tricks HQ, Ruhul Amin
 Donate link: http://www.tipsandtricks-hq.com/
-Tags: Google Adsense, WordPress Plugin,
+Tags: Google Adsense, plugin, adsense, insert adsense, adsense ad, ad code, insert ad, ads, adsense plugin, advertising
 Requires at least: 3.0
-Tested up to: 3.3
-Stable tag: 1.4
+Tested up to: 3.6
+Stable tag: 1.5
+License: GPLv2 or later
 
-Easy to use Wordpress plugin to insert Google Adsense to your WordPress posts, pages and sidebar.
+Easy to use Wordpress plugin to insert Google Adsense to your posts, pages and sidebar.
 
 == Description ==
 
-Use this plugin to quickly and easily insert Google Adsense to your posts, pages and sidebar by using a trigger text or calling the php function.
+Use this plugin to quickly and easily insert Google Adsense to your posts, pages and sidebar by using a shortcode or calling the php function from your theme's template file.
 
 There are many plugins and services which can add Google Adsense to your WordPress site. However I found that even though something like Adsense Manager or Adsense Deluxe provides a lot of customizable options, it can be overwhelming and isn't really simple enough for people who are new to WordPress.
 
-I found that most of the time I only use two or three types of Google Adsense units in various places and posts throughout my sites.That's why I wrote my own Simple Adsense Insertion Plugin for WordPress, to focus on having 1-4 Google Adsense codes saved and use them where ever I want on my site by inserting a simple trigger text to my posts,pages and sidebar.
+I found that most of the time I only use two or three types of Google Adsense units in various places and posts throughout my sites. 
 
-For information and updates, please visit:
-http://www.tipsandtricks-hq.com/?page_id=170
+That's why I wrote my own Simple Adsense Insertion Plugin for WordPress, to focus on having 1-3 Google Adsense codes saved and use them where ever I want ot on my site by inserting a simple shortcode text to my posts,pages and sidebar.
+
+You can use this plugin to store any ad code too (it doesn't have to be just adsense code).
+
+For information and updates, please visit the [simple Google Adsense plugin page](http://www.tipsandtricks-hq.com/wordpress-plugin-for-simple-google-adsense-insertion-170)
 
 = Usage: =
 
@@ -30,13 +34,15 @@ Use the shortcodes:
 * [wp_ad_camp_2]
 * [wp_ad_camp_3]
 * [wp_ad_camp_4]
+* [wp_ad_camp_5]
 
 Call the function from template files:
 
-* <?php echo show_ad_camp_1(); ?>
-* <?php echo show_ad_camp_2(); ?>
-* <?php echo show_ad_camp_3(); ?>
-* <?php echo show_ad_camp_4(); ?>
+* &lt;?php echo show_ad_camp_1(); ?&gt;
+* &lt;?php echo show_ad_camp_2(); ?&gt;
+* &lt;?php echo show_ad_camp_3(); ?&gt;
+* &lt;?php echo show_ad_camp_4(); ?&gt;
+* &lt;?php echo show_ad_camp_5(); ?&gt;
 
 == Installation ==
 
@@ -62,6 +68,10 @@ An easy way to do this would be to install the find/replace plugin (http://wordp
 1. Check out this Plugin in action at http://www.tipsandtricks-hq.com
 
 == Changelog ==
+1.5 - Added a 5th ad code slot
 
-Please see this page for changelog:
-http://www.tipsandtricks-hq.com/wordpress-plugin-for-simple-google-adsense-insertion-170
+1.4 - Added a 4th ad code slot
+
+1.3 - Added a new shortcode implementation to display the adsense ads
+
+1.2 - Changed from displaying adcodes through content filtering to the shortcode method
