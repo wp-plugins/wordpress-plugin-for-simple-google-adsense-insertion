@@ -2,10 +2,10 @@
 
 Contributors: Tips and Tricks HQ, Ruhul Amin
 Donate link: http://www.tipsandtricks-hq.com/
-Tags: Google Adsense, plugin, adsense, insert adsense, adsense ad, ad code, insert ad, ads, adsense plugin, advertising
+Tags: Google Adsense, google, plugin, adsense, insert adsense, adsense ad, ad code, insert ad, ads, adsense plugin, advertising
 Requires at least: 3.0
-Tested up to: 3.6
-Stable tag: 1.5
+Tested up to: 3.8
+Stable tag: 1.6
 License: GPLv2 or later
 
 Easy to use Wordpress plugin to insert Google Adsense to your posts, pages and sidebar.
@@ -68,6 +68,9 @@ An easy way to do this would be to install the find/replace plugin (http://wordp
 1. Check out this Plugin in action at http://www.tipsandtricks-hq.com
 
 == Changelog ==
+
+1.6 - WordPress 3.8 compatibility
+
 1.5 - Added a 5th ad code slot
 
 1.4 - Added a 4th ad code slot
