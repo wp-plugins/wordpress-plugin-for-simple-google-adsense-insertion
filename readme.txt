@@ -1,10 +1,10 @@
 === WP Simple Adsense Insertion ===
 
 Contributors: Tips and Tricks HQ, Ruhul Amin
-Donate link: http://www.tipsandtricks-hq.com/
+Donate link: https://www.tipsandtricks-hq.com/
 Tags: Google Adsense, google, plugin, adsense, insert adsense, adsense ad, ad code, insert ad, ads, adsense plugin, advertising
 Requires at least: 3.0
-Tested up to: 3.8
+Tested up to: 4.0
 Stable tag: 1.6
 License: GPLv2 or later
 
@@ -22,7 +22,7 @@ That's why I wrote my own Simple Adsense Insertion Plugin for WordPress, to focu
 
 You can use this plugin to store any ad code too (it doesn't have to be just adsense code).
 
-For information and updates, please visit the [simple Google Adsense plugin page](http://www.tipsandtricks-hq.com/wordpress-plugin-for-simple-google-adsense-insertion-170)
+For information and updates, please visit the [simple Google Adsense plugin page](https://www.tipsandtricks-hq.com/wordpress-plugin-for-simple-google-adsense-insertion-170)
 
 = Usage: =
 
@@ -61,11 +61,11 @@ No.
 
 The method for displaying ads changed in version 1.2.  The old style will continue to work in this version, but it highly suggested that you update all the adcode in your content to the new method.
 
-An easy way to do this would be to install the find/replace plugin (http://wordpress.org/extend/plugins/search-and-replace/) and update all your old tags.  E.g. Find <!-- wp_ad_camp_1 --> and replace it with [wp_ad_camp_1].
+An easy way to do this would be to install the find/replace plugin (https://wordpress.org/extend/plugins/search-and-replace/) and update all your old tags. Example: Find <!-- wp_ad_camp_1 --> and replace it with [wp_ad_camp_1].
 
 == Screenshots ==  
 
-1. Check out this Plugin in action at http://www.tipsandtricks-hq.com
+1. Check out this Plugin in action at https://www.tipsandtricks-hq.com
 
 == Changelog ==
 
