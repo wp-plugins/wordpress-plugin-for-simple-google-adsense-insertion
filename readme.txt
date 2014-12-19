@@ -4,7 +4,7 @@ Contributors: Tips and Tricks HQ, Ruhul Amin
 Donate link: https://www.tipsandtricks-hq.com/
 Tags: Google Adsense, google, plugin, adsense, insert adsense, adsense ad, ad code, insert ad, ads, adsense plugin, advertising
 Requires at least: 3.0
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: 1.6
 License: GPLv2 or later
 
@@ -66,6 +66,9 @@ An easy way to do this would be to install the find/replace plugin (https://word
 == Screenshots ==  
 
 1. Check out this Plugin in action at https://www.tipsandtricks-hq.com
+
+== Upgrade Notice ==
+None
 
 == Changelog ==
 
