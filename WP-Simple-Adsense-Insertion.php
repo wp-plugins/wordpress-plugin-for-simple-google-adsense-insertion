@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WP Simple Adsense Insertion
-Version: v1.6
+Version: v1.7
 Plugin URI: http://www.tipsandtricks-hq.com/
 Author: Tips and Tricks HQ, Ruhul Amin
 Author URI: http://www.tipsandtricks-hq.com/
@@ -9,7 +9,7 @@ Description: A simple Wordpress plugin to insert Google Adsense ads into posts, 
 License: GPLv2
 */
 
-$wp_simple_ad_insert_version = 1.6;
+$wp_simple_ad_insert_version = 1.7;
 
 function show_ad_camp_1() {
 	$ad_camp_encoded_value_1 = get_option( 'wp_ad_camp_1_code' );
